@@ -1,5 +1,14 @@
-orgs: []
-users: []
+orgs:
+- name: sol duara
+  display_name: Sol Duara
+  description: Created for Matheus Barcelos
+  members:
+  - username: mbarcelos
+    role: owner
+users:
+- username: mbarcelos
+  email: mbarcelos@solduara.com
+  auth_provider: local
 roles:
 - name: owner
   description: Organization owner with full access and billing management
