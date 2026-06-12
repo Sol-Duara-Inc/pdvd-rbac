@@ -3,11 +3,16 @@ orgs:
   display_name: Sol Duara
   description: Created for Matheus Barcelos
   members:
-  - username: mbarcelos
+  - username: junction-box
     role: owner
+  - username: mbarcelos
+    role: admin
 users:
 - username: mbarcelos
   email: mbarcelos@solduara.com
+  auth_provider: local
+- username: junction-box
+  email: junction-box@solduara.com
   auth_provider: local
 roles:
 - name: owner
